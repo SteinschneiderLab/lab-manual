@@ -27,16 +27,13 @@ Below are listed the main roles, responsibilities, and expectations for differen
 
 ### Everyone
 
-•	Scientific Integrity: It is never, ever okay to commit scientific misconduct. There will be a zero-tolerance policy towards fabrication, falsification, and plagiarism. Alert me if you are concerned about any research practices you observe. 
-•	Open Science: As a lab, we are committed to the principles of open, transparent, and reproducible science. More details on our approach to openness are provided below, but all group members will make their models, data, and code publicly available and easily accessible.
-•	Respectfulness: We expect that you will treat every other member of the lab, as well as everyone else, with respect. We want to create an environment where everybody, regardless of background and personality, feels comfortable and valued. In addition, there is zero tolerance for harassment of any kind, which is expressed in the lab’s statement on harassment below: 
+* **Scientific Integrity**: It is never, ever okay to commit scientific misconduct. There will be a zero-tolerance policy towards fabrication, falsification, and plagiarism. Alert me if you are concerned about any research practices you observe. 
+*	**Open Science**: As a lab, we are committed to the principles of open, transparent, and reproducible science. More details on our approach to openness are provided below, but all group members will make their models, data, and code publicly available and easily accessible.
+*	**Respectfulness**: We expect that you will treat every other member of the lab, as well as everyone else, with respect. We want to create an environment where everybody, regardless of background and personality, feels comfortable and valued. In addition, there is zero tolerance for harassment of any kind, which is expressed in the lab’s statement on harassment below: 
 
-The Steinschneider Research Group is committed to creating a harassment-free space for everyone, regardless of race, gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, age, or religion. We do not tolerate harassment of group members, other colleagues, or anyone else in any form. Sexual language and imagery is not appropriate for any professional setting, including talks, workshops, or any online media. Research group members violating these rules will be sanctioned or expelled at my discretion.
+*The Steinschneider Research Group is committed to creating a harassment-free space for everyone, regardless of race, gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, age, or religion. We do not tolerate harassment of group members, other colleagues, or anyone else in any form. Sexual language and imagery is not appropriate for any professional setting, including talks, workshops, or any online media. Research group members violating these rules will be sanctioned or expelled at my discretion.
 
-If you are being harassed, notice that someone else is being harassed, or have any
-other concerns, contact me immediately. I am always available any time to help group members contact security or local law enforcement, navigate official University reporting channels, or otherwise assist those experiencing harassment to feel safe in the research environment. If I am the cause of your concern or you would prefer I not be involved,
-official concerns can be directed to the Diversity and Inclusion office or the Title
-IX Coordinator.
+If you are being harassed, notice that someone else is being harassed, or have any other concerns, contact me immediately. I am always available any time to help group members contact security or local law enforcement, navigate official University reporting channels, or otherwise assist those experiencing harassment to feel safe in the research environment. If I am the cause of your concern or you would prefer I not be involved, official concerns can be directed to the Diversity and Inclusion office or the Title IX Coordinator.*
 
 
 ### Principal Investigator
