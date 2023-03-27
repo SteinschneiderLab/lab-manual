@@ -14,7 +14,7 @@ Note that there is no expectation that members of the lab work unreasonable hour
 * **Set boundaries each day**: Define what work hours make sense for you and turn off notifications during your personal time.
 * **Take time off each week**: Take a day or two off, as needed, each week.
 * **Stay at home if you’re sick**: Your health comes first – work can wait. Just let me know when you can so I don’t bother you. 
-* **Taking vacations**: Group members should aim to take 2-4 weeks off each year for vacation. Please just discuss vacation timelines with me and communicate them to the rest of the lab. It’s helpful to set away messages and e-mail responses which make it clear that you are on vacation.
+* **Taking vacations**: Group members should aim to take time off each year for vacation. Accordingly to Cornell policy, graduate students are entitled to 2 weeks (10 weekdays) off per year, while postdocs and research associates are entitled to 3 weeks (15 weekdays) off per year. I can be flexible with vacation times and durations. Please just discuss vacation timelines with me and communicate them to the rest of the lab. It’s helpful to set away messages and e-mail responses which make it clear that you are on vacation.
 
 ## Principal Investigator
 
