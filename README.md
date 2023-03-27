@@ -2,7 +2,7 @@
 
 This repository contains documents that detail procedures, expectations, and resources that apply to all members of the lab. The lab manual should be considered a living set of documents. Any lab member should feel free to comment or make recommendations on how this manual can be improved. 
 
-##What We Do
+## What We Do
 
 Work in the Steinschneider Lab enhances the sustainability of water systems through innovations in climate risk management that enable decision-making under deep uncertainty in future climate and hydrologic conditions. We advance this program through three inter-related themes: 
 *T1: Assessing the variability, predictability, and change of hydroclimate processes that impact the performance of water infrastructure.
@@ -22,4 +22,4 @@ Areas we work in:
 *Machine learning and uncertainty analysis in hydrology and water management
 
 ## Roles, Responsibilities, and Expectations
-Below are listed the main roles, responsibilities, and expectations for different members of the lab, which are designed to promote a healthy, fun, and productive environment. If you have any questions, please feel free to ask.![image](https://user-images.githubusercontent.com/72916407/227987044-7e55b510-16ea-4e3a-8b09-4429cdf4c6af.png)
+Below are listed the main roles, responsibilities, and expectations for different members of the lab, which are designed to promote a healthy, fun, and productive environment. If you have any questions, please feel free to ask.
