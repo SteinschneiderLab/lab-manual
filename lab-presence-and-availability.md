@@ -22,7 +22,7 @@ I will be regularly working on campus unless on leave. I will be available to me
 
 If you want to ask a question or schedule an impromptu meeting and my office door (320 Riley-Robb Hall) is open, feel free to ask if I can meet with you. If my door is closed, I am likely unavailable at that time. In those instances, please send a message to schedule a meeting at another time. 
 
-You can text me (201-913-1064) if you need an immediate response to something, and I will respond as soon as I can. Also, you can call in case of any emergency. 
+You can text me if you need an immediate response to something, and I will respond as soon as I can. Also, you can call in case of any emergency. 
 
 I will make my vacation plans clear ahead of time, so that any relevant deadlines requiring feedback can be dealt with prior to the start.
 
