@@ -6,4 +6,4 @@ This folder contains useful resources for members of the lab, including:
 * a simple [introduction](git-and-github.md) to Git and Guthub
 * a [guide](high-performance-computing.md) to high performance computing resources
 
-Also, [here](https://waterprogramming.wordpress.com/) is a link to the Water Programming blog out of the Reed Research group, which has a tremendous wealth of how-to information for a variety of programming and modeling tasks relevant to our work. 
+Also, the [Water Programming blog](https://waterprogramming.wordpress.com/) out of the Reed Research group has a tremendous wealth of how-to information for a variety of programming and modeling tasks relevant to our work. I strongly encourage you to use this blog as a core training resource. 
