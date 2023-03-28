@@ -1,4 +1,4 @@
-# Professional Development
+# Professional and Skillset Development
 
 All members of the lab are expected to continually develop themselves as scientists. This will involve staying up to date on the most recent advances in your sub-field(s) of interest, developing the tools necessary to conduct compelling research, and learning how to communicate your work to a range of audiences. Some guidance on each of these components is provided below. 
 
