@@ -5,3 +5,5 @@ Git is a version control system used to track changes in computer files. It is u
 GitHub is a cloud-based Git repository hosting service. With its user-friendly interface, GitHub helps individuals and teams use Git for version control and collaboration. We use GitHub as a central location for making publicly available the models and tools developed in the lab, which is key to our commitment to Open Science. 
 
 There are **lots** of tutorials online for Git and GitHub. Some to start with can be found [here](https://docs.github.com/en/get-started/quickstart/hello-world) and [here](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners). But I encourage you to look for others you find useful (and list them here!).  
+
+Finally, its important to note that you can often store your data on GutHub too, but only up to a certain size. Large datasets (files > 50 MB) should not be stored in the GitHub repository, but instead in other general-purpose open repositories (e.g., [Zenodo](https://zenodo.org/)) that you can directly link to your GitHub account. 
