@@ -1,5 +1,5 @@
 # Resources
 This folder contains useful resources for members of the lab, including: 
 * a guide on scientific writing (Day 2008)
-* a guide on best practices for computational science ()
+* a guide on best practices for computational science (Wilson et al., 2017, Good enough practices in scientific computing)
 * 
