@@ -6,7 +6,7 @@ All members of the lab are expected to continually develop themselves as scienti
 
 * **Computer Programming and Advanced Toolkits**: Our work is mostly computational in nature, and so we need to develop strong programming skills. While I do not require any one particular language, I recommend starting with Python or R depending on the nature of your work. You will also want to learn shell scripting as you become more advanced in your programming. 
 
-  I am happy to provide support as you develop your programming skills. In particular, I will fund online training modules (e.g., Data Camp) if you want to pick up a new language. I also require that students use Git and Github for version control and to promote open science (see [open-science](open-science.md)). 
+  I am happy to provide support as you develop your programming skills. In particular, I will fund online training modules (e.g., [Data Camp](https://www.datacamp.com/)) if you want to pick up a new language. I also require that students use Git and Github for version control and to promote open science (see [open-science](open-science.md)). 
 
   The lab often uses high performance computing (HPC) in support of our research. We have a local cluster (Hopper), and also use cloud resources (NSF ACCESS; Google cloud, Amazon Cloud Platform, Amazon Web Services). You can learn from peers in the lab and the broader EWRS community how to use these resources.  
 
