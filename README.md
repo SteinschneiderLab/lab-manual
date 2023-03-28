@@ -4,7 +4,7 @@ This repository contains materials that detail procedures, expectations, and res
 
 * An overview of [research](what-we-do.md) conducted in the Steinschneider Lab
 * The [roles, responsibility, and expectations](roles-responsibilities-expectations.md) for different members in the lab 
-* Guidelines on [professional development](professional-development.md)
+* Guidelines on [professional and skillset development](professional-development.md)
 * Lab policy on [availability, time off, and remote work](lab-presence-and-availability.md)
 * Lab policy on [open research](open-research.md)
 * Other [resources](resources)
