@@ -6,11 +6,11 @@ All members of the lab are expected to continually develop themselves as scienti
 
 * **Computer Programming and Advanced Toolkits**: Our work is mostly computational in nature, and so we need to develop strong programming skills. While I do not require any one particular language, I recommend starting with Python or R depending on the nature of your work. You will also want to learn shell scripting as you become more advanced in your programming. 
 
-  I am happy to provide support as you develop your programming skills. In particular, I will fund online training modules (e.g., Data Camp) if you want to pick up a new language. I also require that students use Git and Github for version control and to promote open science (see "open-science.md"). 
+  I am happy to provide support as you develop your programming skills. In particular, I will fund online training modules (e.g., Data Camp) if you want to pick up a new language. I also require that students use Git and Github for version control and to promote open science (see [open-science](open-science.md)). 
 
   The lab often uses high performance computing (HPC) in support of our research. We have a local cluster (Hopper), and also use cloud resources (NSF ACCESS; Google cloud, Amazon Cloud Platform, Amazon Web Services). You can learn from peers in the lab and the broader EWRS community how to use these resources.  
 
-  I have compiled several tutorials and other resources in the "resources" folder of the lab manual [resources](resources). Please start there and read through those materials as a useful starting place for training excercises. 
+  I have compiled several tutorials and other resources in the [resources](resources) folder of the lab manual. Please start there and read through those materials as a useful starting place for training excercises. 
 
   Coursework is also an important way to develop new skills and expand the breadth and depth of your knowledge. Courses should be chosen carefully to complement the skills and knowledge you wish to develop in support of your research. In a separate repository in the lab Github account, we have developed a course list (branched from Vivek's lab) that can provide a good place to start when thinking through which courses to take. 
 
