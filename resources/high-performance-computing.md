@@ -7,6 +7,15 @@ Hopper is a cluster run by Vivek Srikrishnan in BEE and shared across the Srikri
 
 Specs on Hopper can be found [here](https://www.cac.cornell.edu/wiki/index.php?title=Hopper_Cluster)
 
+## Some useful terminology
+* **SSH**: SSH or Secure Shell is a network communication protocol that enables two computers to communicate and share data in a client-server model. SSH is often used to "login" and perform operations on remote computers, but it may also be used for transferring data.
+
+* **SSH client**: An SSH client is a program that allows establishing secure and authenticated SSH connections to SSH servers.
+
+* **SSH server**: An SSH server is a software program which uses the Secure Shell protocol to accept connections from remote computers. 
+
+* **SFTP**:  The SSH File Transfer Protocol (SFTP) is a network protocol that provides file access, file transfer, and file management. SFTP is a popular use case for an SSH server.
+
 ## Accessing Hopper
 
 ### Windows 
