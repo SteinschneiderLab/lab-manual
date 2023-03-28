@@ -18,7 +18,7 @@ Specs on Hopper can be found [here](https://www.cac.cornell.edu/wiki/index.php?t
 
 ### Accessing Hopper
 
-More detail on how to access and submit jobs to Hopper can be found [here](https://github.com/srikrishnan-lab/slurm_tutorial). However, note that there will be slight differences in how you access Hopper depending on your operating system:
+More detail and examples on how to access and submit jobs to Hopper can be found [here](https://github.com/srikrishnan-lab/slurm_tutorial). However, note that there will be slight differences in how you access Hopper depending on your operating system:
 
 #### Windows 
 The easiest way to remote into Hopper if you are a Windows user is to download MobaXterm [here](https://mobaxterm.mobatek.net/). 
