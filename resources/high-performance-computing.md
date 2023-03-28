@@ -12,13 +12,13 @@ Specs on Hopper can be found [here](https://www.cac.cornell.edu/wiki/index.php?t
 
 * **SSH client**: An SSH client is a program that allows establishing secure and authenticated SSH connections to SSH servers.
 
-* **SSH server**: An SSH server is a software program which uses the Secure Shell protocol to accept connections from remote computers. 
+* **SSH server**: An SSH server is a software program which uses the Secure Shell protocol to accept connections from remote computers (i.e., the client). 
 
-* **SFTP**:  The SSH File Transfer Protocol (SFTP) is a network protocol that provides file access, file transfer, and file management. SFTP is a popular use case for an SSH server.
+* **SFTP**:  The SSH File Transfer Protocol (SFTP) is a network protocol that provides file access, file transfer, and file management. SFTP is a popular extension of SSH to provide secure file transfer capabilities.
 
 ## Accessing Hopper
 
-Tutorials on how to access Hopper can be found here. However, there are slight differences depending on your operating system:
+More detail on how to access and submit jobs to Hopper can be found [here](https://github.com/srikrishnan-lab/slurm_tutorial). However, note that there will be slight differences in how you access Hopper depending on your operating system:
 
 ### Windows 
 The easiest way to remote into Hopper if you are a Windows user is to download MobaXterm [here](https://mobaxterm.mobatek.net/). 
