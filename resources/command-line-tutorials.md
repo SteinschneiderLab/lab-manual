@@ -6,9 +6,7 @@
 
 * Desktop Linux: You can search for the "Terminal" application from the Dash. Let's be honest, though, if you're running Linux, you probably don't need this tutorial.
 
-* Windows: You need to install Cygwin, which will allow you to mimic a Linux-style command line:
-
-[Cygwin](http://www.cygwin.com/)
+* Windows: You need to install [Cygwin](http://www.cygwin.com/), which will allow you to mimic a Linux-style command line:
 
 A version of command line can also be accessed through the Start Menu, but this is a Windows version has its own system, and so the Linux-style command line through Cygwin is often more useful.  
 
