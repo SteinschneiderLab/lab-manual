@@ -15,9 +15,8 @@ There is no right answer to this. But as a starting point, I would suggest the f
 Inside Projects, I would then create an Archive folder for past projects, and then a separate folder for each active Project. I would also create a folder called venvs to hold all of your virtual environments (you might have several, one for each project or group of projects):
 
 Projects
---Archive
---venvs
---ActiveProject1
---ActiveProject2
-...
---ActiveProjectN
+* Archive
+* venvs
+* ActiveProject1
+* ActiveProject2
+* ...
