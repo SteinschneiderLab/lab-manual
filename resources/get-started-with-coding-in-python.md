@@ -34,5 +34,5 @@ If you then want to develop Python code in this virtual environment using your f
 
 You may also choose to use conda to set up and manage virtual environments (see [here](https://subscription.packtpub.com/book/big-data-and-business-intelligence/9781788291460/1/ch01lvl1sec13/creating-a-virtual-environment-for-development-with-conda)). You'll want to install [Anaconda](https://www.anaconda.com/), which will come with a bunch of data science packages, along with conda. If you would prefer a GUI, you can use [Anaconda-Navigator](https://docs.anaconda.com/navigator/index.html).
 
-
+If you are a little confused, a good overview of these different options (and virutal environments in general) can be found [here](https://realpython.com/python-virtual-environments-a-primer/#what-other-popular-options-exist-aside-from-venv).
  
