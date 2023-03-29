@@ -1,4 +1,21 @@
-# Virtual Environments
+# Directory Organization and Virtual Environments
+
+## How to organize your directories
+
+There is no right answer to this. But as a starting point, I would suggest the following organization on your computer. Create a directory called "Projects". This is where all of your projects will live. 
+
+Inside Projects, I would then create an Archive folder for past projects, and then a separate folder for each active project. I would also create a folder called venvs to hold all of your virtual environments (discussed below):
+
+Projects
+* Archive
+* venvs
+* ActiveProject1
+* ActiveProject2
+* ...
+
+Within each active project, you often want a few clearly marked folders to organize your data, code, and other documentation. 
+
+ADD CONTENT HERE
 
 ## What is a virtual environment?
 
@@ -8,15 +25,8 @@ This is important, because sometimes one project will need one version of an ext
 
 Also, if you create a virtual environment with the specific versions of python and all external packages needed for your project, its then very easy to export those dependencies and communicate them to others. This will make it much easier for collaborators and other scientists to run your code. 
 
-## How to organize your virtual environments and directories
-
-There is no right answer to this. But as a starting point, I would suggest the following organization on your computer. Create a directory called "Projects". This is where all of your projects will live. 
-
-Inside Projects, I would then create an Archive folder for past projects, and then a separate folder for each active project. I would also create a folder called venvs to hold all of your virtual environments (you might have several, one for each project or group of projects):
-
-Projects
-* Archive
-* venvs
-* ActiveProject1
-* ActiveProject2
-* ...
+ 
+ADD CONTENT HERE
+(you might have several, one for each project or group of projects)
+ 
+ 
