@@ -12,7 +12,7 @@ Also, if you create a virtual environment with the specific versions of python a
 
 There is no right answer to this. But as a starting point, I would suggest the following organization on your computer. Create a directory called "Projects". This is where all of your projects will live. 
 
-Inside Projects, I would then create an Archive folder for past projects, and then a separate folder for each active Project. I would also create a folder called venvs to hold all of your virtual environments (you might have several, one for each project or group of projects):
+Inside Projects, I would then create an Archive folder for past projects, and then a separate folder for each active project. I would also create a folder called venvs to hold all of your virtual environments (you might have several, one for each project or group of projects):
 
 Projects
 * Archive
