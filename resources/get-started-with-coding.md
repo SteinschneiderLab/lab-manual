@@ -40,7 +40,7 @@ If you are also interested in using Anaconda for environment management in R, fo
 
 Once you've created an environment, you can manage that environment (e.g., add new packages, remove old ones, export the environment for others to use) using Conda. See [here](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) for more instructions on these different management actions.  
 
-I personally like to use specific IDEs (Spyder, RStudio) to actually develop my code. [here](https://github.com/spyder-ide/spyder/wiki/Working-with-packages-and-environments-in-Spyder)
+I personally like to use specific IDEs (Spyder, RStudio) to actually develop my code. However, if you want to use an IDE in a virtual environment without re-installing the IDE for each environment (which would take up lots of memory as the number of environments grow), you need another strategy. A solution can be found [here](https://github.com/spyder-ide/spyder/wiki/Working-with-packages-and-environments-in-Spyder). 
 
 In Python, there is another way to set up virtual environments, explained [here](https://www.youtube.com/watch?v=28eLP22SMTA&t=572s). It will show you how to do a custom install of Python and set up a virtual environment (on a Windows machine) using *venv*. However, if you use Anaconda and Conda, you don't need to do this. However, others you collaborate with might take this approach, so its useful to be aware of it. If you are a little confused, a good overview of these different options (and virutal environments in general) can be found [here](https://realpython.com/python-virtual-environments-a-primer/#what-other-popular-options-exist-aside-from-venv).
 
