@@ -42,6 +42,8 @@ Once you've created an environment, you can manage that environment (e.g., add n
 
 I personally like to use specific IDEs (Spyder, RStudio) to actually develop my code. However, if you want to use an IDE in a virtual environment without re-installing the IDE for each environment (which would take up lots of memory as the number of environments grow), you need another strategy. A solution can be found [here](https://github.com/spyder-ide/spyder/wiki/Working-with-packages-and-environments-in-Spyder). 
 
+### Other options for virtual environments
+
 In Python, there is another way to set up virtual environments, explained [here](https://www.youtube.com/watch?v=28eLP22SMTA&t=572s). It will show you how to do a custom install of Python and set up a virtual environment (on a Windows machine) using *venv*. However, if you use Anaconda and Conda, you don't need to do this. However, others you collaborate with might take this approach, so its useful to be aware of it. If you are a little confused, a good overview of these different options (and virutal environments in general) can be found [here](https://realpython.com/python-virtual-environments-a-primer/#what-other-popular-options-exist-aside-from-venv).
 
 Similarly, in R, there are also other tools to create project environments without Anaconda. For example, see [here](https://posit.co/blog/renv-project-environments-for-r/). Again, if you use Anaconda and Conda, you don't need to do this, but its useful to be aware of. 
