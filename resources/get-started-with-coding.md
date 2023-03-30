@@ -24,7 +24,7 @@ Be sure to name all files in a way that clearly reflects their content or functi
 
 ## What is a virtual environment?
 
-A virtual environment helps to keep dependencies required by different projects separate, by creating isolated python virtual environments for each of them. Its like creating a remote island for each project that contains exactly the right version of python and associated external packages needed for that project. 
+In Python, a virtual environment helps to keep dependencies required by different projects separate, by creating isolated python virtual environments for each of them. Its like creating a remote island for each project that contains exactly the right version of python and associated external packages needed for that project. 
 
 This is important, because sometimes one project will need one version of an external package, while another project will need another version of the same package. You can't install two different versions of the same package to the base installation of Python, so you would have to choose one. This would then disrupt one of your two projects. Virtual environments solve this problem. 
 
@@ -37,7 +37,7 @@ I would suggest watching this [video](https://www.youtube.com/watch?v=28eLP22SMT
 
 If you then want to develop Python code in this virtual environment using your favorite Python IDE (integrated development environment), such as Spyder, you can follow these [instructions](https://medium.com/@apremgeorge/using-conda-python-environments-with-spyder-ide-and-jupyter-notebooks-in-windows-4e0a905aaac5). 
 
-You may also choose to use conda to set up and manage virtual environments (see [here](https://subscription.packtpub.com/book/big-data-and-business-intelligence/9781788291460/1/ch01lvl1sec13/creating-a-virtual-environment-for-development-with-conda)). You'll want to install [Anaconda](https://www.anaconda.com/), which will come with a bunch of data science packages, along with conda. If you would prefer a GUI, you can use [Anaconda-Navigator](https://docs.anaconda.com/navigator/index.html).
+You may also choose to use conda to set up and manage virtual environments (see [here](https://subscription.packtpub.com/book/big-data-and-business-intelligence/9781788291460/1/ch01lvl1sec13/creating-a-virtual-environment-for-development-with-conda)). I personally prefer conda, as it can also be used to help manage environments in other languages like R. You'll want to install [Anaconda](https://www.anaconda.com/), which will come with a bunch of data science packages, along with conda. If you would prefer a GUI, you can use [Anaconda-Navigator](https://docs.anaconda.com/navigator/index.html).
 
 If you are a little confused, a good overview of these different options (and virutal environments in general) can be found [here](https://realpython.com/python-virtual-environments-a-primer/#what-other-popular-options-exist-aside-from-venv).
  
