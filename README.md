@@ -11,5 +11,5 @@ This repository contains materials that detail procedures, expectations, and res
 
 The lab manual should be considered a set of living documents. Feel free to comment or make recommendations on how this manual can be improved. 
 
-Finally, I would be remiss not to thank Vivek Srikrishnan and Pat Reed, who shared their own lab manuals which provided a lot of inspiration for how this one is designed. 
+Finally, I would be remiss not to thank Vivek Srikrishnan and Pat Reed for sharing their own lab manuals, which provided much of the inspiration for how this one is designed. 
 
