@@ -4,18 +4,23 @@
 
 There is no right answer to this. But as a starting point, I would suggest the following organization on your computer. Create a directory called "Projects". This is where all of your projects will live. 
 
-Inside Projects, I would then create an Archive folder for past projects, and then a separate folder for each active project. I would also create a folder called venvs to hold all of your virtual environments (discussed below):
+Inside Projects, I would then create an Archive folder for past projects, and then a separate folder for each active project:
 
 Projects
 * Archive
-* venvs
 * ActiveProject1
 * ActiveProject2
 * ...
 
-Within each active project, you often want a few clearly marked folders to organize your data, code, and other documentation. 
+Within each active project, you often want a few clearly marked folders to organize your data, code, and other documentation, using common folder names across projects so it becomes easy (and second nature) to navigate your directory structure:
 
-ADD CONTENT HERE
+ActiveProject1
+* doc - text documents associated with the project, such as files for manuscripts, additional documentation for source code, and notes documenting your experiments
+* data - put the raw data here. organize in subdirectories as needed.
+* results - files generaed during cleanup and analysis. You'll often want multiple subdirectories to organize intermediary files like cleaned data, simulation results, and figures
+* src - put source code for your project here. you probably want a subdirectory system that stores source code files used in the core analysis in one place, and in a separate location, include a driver script (e.g., runall.R or runall.py) that contains all analysis steps from start to finish
+
+Be sure to name all files in a way that clearly reflects their content or function. 
 
 ## What is a virtual environment?
 
