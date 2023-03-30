@@ -30,14 +30,12 @@ This is important, because sometimes one project will need one version of an ext
 
 Also, if you create a virtual environment with the specific versions of python and all external packages needed for your project, its then very easy to export those dependencies and communicate them to others. This will make it much easier for collaborators and other scientists to run your code. 
 
+Using virtual environments is considered best practice for Python, and so I strongly suggest you start using virtual environments right away. However, the use of separate environments for indiviudal projects is not just for Python users. If you are coding in R, it is also helpful to follow this approach. The next section provides some instructions on how to do this in either Python or R, using Anaconda. 
  
-## Installing Python and setting up a virtual enviromnent
+## Installing Python and R, and setting up a virtual enviromnent
 
-I would suggest watching this [video](https://www.youtube.com/watch?v=28eLP22SMTA&t=572s) **before** installing Python. It will show you how to do a custom install of Python and set up a virtual environment. The video is designed for a Windows machine, but worth watching regardless of your operating system. Also, similar instructions for setting up virtual environments on Mac can be found online.
+I think the easiest way to get started with coding in Python or R properly (i.e., with good environment management) is to use Anaconda. I personally prefer this approach, and if you are not sure where to start, then start with Anaconda. You can use these videos here and here to help you get started with Anaconda installation, using conda in command-line to help build and manage separate environments for your different projects, or using [Anaconda-Navigator](https://docs.anaconda.com/navigator/index.html) (a nice GUI for Anaconda) to do the same thing. You may also choose to use conda to set up and manage virtual environments (see [here](https://subscription.packtpub.com/book/big-data-and-business-intelligence/9781788291460/1/ch01lvl1sec13/creating-a-virtual-environment-for-development-with-conda)). If you would prefer a GUI, you can use
 
-If you then want to develop Python code in this virtual environment using your favorite Python IDE (integrated development environment), such as Spyder, you can follow these [instructions](https://medium.com/@apremgeorge/using-conda-python-environments-with-spyder-ide-and-jupyter-notebooks-in-windows-4e0a905aaac5). 
-
-You may also choose to use conda to set up and manage virtual environments (see [here](https://subscription.packtpub.com/book/big-data-and-business-intelligence/9781788291460/1/ch01lvl1sec13/creating-a-virtual-environment-for-development-with-conda)). I personally prefer conda, as it can also be used to help manage environments in other languages like R. You'll want to install [Anaconda](https://www.anaconda.com/), which will come with a bunch of data science packages, along with conda. If you would prefer a GUI, you can use [Anaconda-Navigator](https://docs.anaconda.com/navigator/index.html).
+In Python, there is another way to set up virtual environments, explained [here](https://www.youtube.com/watch?v=28eLP22SMTA&t=572s). It will show you how to do a custom install of Python and set up a virtual environment (on a Windows machine) using *venv*. However, if you use Anaconda and Conda, you don't need to do this. However, others you collaborate with might take this approach, so its useful to be aware of it. 
 
 If you are a little confused, a good overview of these different options (and virutal environments in general) can be found [here](https://realpython.com/python-virtual-environments-a-primer/#what-other-popular-options-exist-aside-from-venv).
- 
