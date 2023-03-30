@@ -18,7 +18,7 @@ ActiveProject1
 * doc - text documents associated with the project, such as files for manuscripts, additional documentation for source code, and notes documenting your experiments
 * data - put the raw data here. organize in subdirectories as needed.
 * results - files generaed during cleanup and analysis. You'll often want multiple subdirectories to organize intermediary files like cleaned data, simulation results, and figures
-* src - put source code for your project here. you probably want a subdirectory system that stores source code files used in the core analysis in one place, and in a separate location, include a driver script (e.g., runall.R or runall.py) that contains all analysis steps from start to finish
+* src - put source code for your project here. you probably want a subdirectory system that stores source code files used in the core analysis in one place, and in a separate location, include a driver script (e.g., runall.py) that contains all analysis steps from start to finish
 
 Be sure to name all files in a way that clearly reflects their content or function. 
 
