@@ -32,7 +32,7 @@ Also, if you create a virtual environment with the specific versions of python a
 
 Using virtual environments is considered best practice for Python, and so I strongly suggest you start using virtual environments right away. However, the use of separate environments for indiviudal projects is not just for Python users. If you are coding in R, it is also helpful to follow this approach. The next sections provide some instructions on how to do this in either Python or R. 
  
-## Getting started in Python with virtual enviromnents
+## Getting started in Python with virtual environments
 
 ### Anaconda
 
@@ -48,6 +48,6 @@ In Python, there is another way to set up virtual environments, explained [here]
 
 ## Getting started in R with virtual environments
 
-You can also use Anaconda for environment management in R, following these instructions [here](https://docs.anaconda.com/navigator/tutorials/create-r-environment/) to install R, RStudio, and R packages through Anaconda. However, you may have to reinstall RStudio and R for every environment you create, which is very memory heavy, and so you may choose to work out of the base environment. 
+You can also use Anaconda for environment management in R, following these instructions [here](https://docs.anaconda.com/navigator/tutorials/create-r-environment/) to install R, RStudio, and R packages through Anaconda. However, you may have to reinstall RStudio and R for every environment you create, which is very memory heavy, and so you may choose to work out of only a few environments across projects.  
 
 Alternatively, there are other tools in R to create project environments without Anaconda. For example, see [here](https://posit.co/blog/renv-project-environments-for-r/). 
