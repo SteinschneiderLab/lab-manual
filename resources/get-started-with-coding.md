@@ -46,7 +46,7 @@ I personally like to use specific IDEs (e.g., Spyder) to actually develop my cod
 
 In Python, there is another way to set up virtual environments, explained [here](https://www.youtube.com/watch?v=28eLP22SMTA&t=572s). It will show you how to do a custom install of Python and set up a virtual environment (on a Windows machine) using *venv*. However, if you use Anaconda and Conda, you don't need to do this. However, others you collaborate with might take this approach, so its useful to be aware of it. If you are a little confused, a good overview of these different options (and virutal environments in general) can be found [here](https://realpython.com/python-virtual-environments-a-primer/#what-other-popular-options-exist-aside-from-venv).
 
-## Getting started in R with virtual enviromnents
+## Getting started in R with virtual environments
 
 You can also use Anaconda for environment management in R, following these instructions [here](https://docs.anaconda.com/navigator/tutorials/create-r-environment/) to install R, RStudio, and R packages through Anaconda. However, you may have to reinstall RStudio and R for every environment you create, which is a bummer (and memory heavy). 
 
