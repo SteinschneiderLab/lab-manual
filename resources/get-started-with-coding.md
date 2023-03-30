@@ -32,7 +32,7 @@ Also, if you create a virtual environment with the specific versions of python a
 
 Using virtual environments is considered best practice for Python, and so I strongly suggest you start using virtual environments right away. However, the use of separate environments for indiviudal projects is not just for Python users. If you are coding in R, it is also helpful to follow this approach. The next section provides some instructions on how to do this in either Python or R using Anaconda. 
  
-## Installing Python and R, and setting up a virtual enviromnent
+## Installing Python and R, and setting up a virtual enviromnent, using Anaconda
 
 I think the easiest way to get started with coding in Python properly (i.e., with good environment management) is to use Anaconda. I personally prefer this approach, and if you are not sure where to start, then start with Anaconda. You can use these videos [here](https://www.youtube.com/watch?v=23aQdrS58e0&feature=youtu.be) and [here](https://www.youtube.com/watch?v=AEFVbCcYVTY&feature=youtu.be) to help you get started with Anaconda installation, using Conda in command-line to help build and manage separate environments for your different projects and then get coding in your favorite IDE (e.g., Spyder, RStudio), or using [Anaconda-Navigator](https://docs.anaconda.com/navigator/index.html) (a nice GUI for Anaconda) to do the same things. Note that the first video suggests installing Miniconda, but, I would recommend Anaconda (which comes with Anaconda Navigator). 
 
