@@ -38,7 +38,7 @@ I think the easiest way to get started with coding in Python properly (i.e., wit
 
 If you are also interested in using Anaconda for environment management in R, follow the instructions [here](https://docs.anaconda.com/navigator/tutorials/create-r-environment/) to install R, RStudio, and R packages through Anaconda.
 
-Once you've created an environment, you can manage that environment (e.g., ) using Conda. See [here](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) for a variety of actions you can take to manage your environments. 
+Once you've created an environment, you can manage that environment (e.g., add new packages, remove old ones, export the environment for others to use) using Conda. See [here](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) for more instructions on these different management actions.  
 
 In Python, there is another way to set up virtual environments, explained [here](https://www.youtube.com/watch?v=28eLP22SMTA&t=572s). It will show you how to do a custom install of Python and set up a virtual environment (on a Windows machine) using *venv*. However, if you use Anaconda and Conda, you don't need to do this. However, others you collaborate with might take this approach, so its useful to be aware of it. If you are a little confused, a good overview of these different options (and virutal environments in general) can be found [here](https://realpython.com/python-virtual-environments-a-primer/#what-other-popular-options-exist-aside-from-venv).
 
