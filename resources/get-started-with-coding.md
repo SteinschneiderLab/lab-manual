@@ -30,7 +30,7 @@ This is important, because sometimes one project will need one version of an ext
 
 Also, if you create a virtual environment with the specific versions of python and all external packages needed for your project, its then very easy to export those dependencies and communicate them to others. This will make it much easier for collaborators and other scientists to run your code. 
 
-Using virtual environments is considered best practice for Python, and so I strongly suggest you start using virtual environments right away. However, the use of separate environments for indiviudal projects is not just for Python users. If you are coding in R, it is also helpful to follow this approach. The next section provides some instructions on how to do this in either Python or R, using Anaconda. 
+Using virtual environments is considered best practice for Python, and so I strongly suggest you start using virtual environments right away. However, the use of separate environments for indiviudal projects is not just for Python users. If you are coding in R, it is also helpful to follow this approach. The next section provides some instructions on how to do this in either Python or R using Anaconda. 
  
 ## Installing Python and R, and setting up a virtual enviromnent
 
