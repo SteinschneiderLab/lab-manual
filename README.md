@@ -6,7 +6,7 @@ This repository contains materials that detail procedures, expectations, and res
 * The [roles, responsibility, and expectations](roles-responsibilities-expectations.md) for different members in the lab 
 * Guidelines on [professional and skillset development](professional-development.md)
 * Lab policy on [availability, time off, and remote work](lab-presence-and-availability.md)
-* Lab policy on [open research](open-research.md)
+* Lab policy on [open research](open-reproducible-research.md)
 * Other [resources](resources) on coding, scientific writing, and best practices in computational science
 
 The lab manual should be considered a set of living documents. Feel free to comment or make recommendations on how this manual can be improved. 
