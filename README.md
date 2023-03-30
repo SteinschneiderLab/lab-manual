@@ -7,9 +7,9 @@ This repository contains materials that detail procedures, expectations, and res
 * Guidelines on [professional and skillset development](professional-development.md)
 * Lab policy on [availability, time off, and remote work](lab-presence-and-availability.md)
 * Lab policy on [open research](open-research.md)
-* Other [resources](resources)
+* Other [resources](resources) on coding, scientific writing, and best practices in computational science
 
 The lab manual should be considered a set of living documents. Feel free to comment or make recommendations on how this manual can be improved. 
 
-Finally, I would be remiss not to thank Vivek Srikrishnan and Pat Reed for sharing their own lab manuals, which provided much of the inspiration for how this one is designed. 
+Finally, I would be remiss not to thank Vivek Srikrishnan and Pat Reed for sharing their own lab manuals, from which I derived much of the inspiration for this one. 
 
