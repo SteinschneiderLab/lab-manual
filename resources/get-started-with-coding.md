@@ -48,6 +48,6 @@ In Python, there is another way to set up virtual environments, explained [here]
 
 ## Getting started in R with virtual environments
 
-You can also use Anaconda for environment management in R, following these instructions [here](https://docs.anaconda.com/navigator/tutorials/create-r-environment/) to install R, RStudio, and R packages through Anaconda. You will have to reinstall RStudio for every environment you create, which is memory heavy. A solution to avoid this can be found [here](https://stackoverflow.com/questions/38534383/how-to-set-up-conda-installed-r-for-use-with-rstudio).  
+You can also use Anaconda for environment management in R, following these instructions [here](https://docs.anaconda.com/navigator/tutorials/create-r-environment/) to install R, RStudio, and R packages through Anaconda. You will have to reinstall RStudio for every environment you create, which is memory heavy. A solution to avoid this can be found towards the bottom of the discussion [here](https://stackoverflow.com/questions/38534383/how-to-set-up-conda-installed-r-for-use-with-rstudio) (see "Launch RStudio from Activated Conda Environment").  
 
 Alternatively, there are other tools in R to create project environments without Anaconda. For example, see [here](https://posit.co/blog/renv-project-environments-for-r/). 
