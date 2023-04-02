@@ -22,7 +22,11 @@ ActiveProject1
 
 Be sure to name all files in a way that clearly reflects their content or function. 
 
-## What is a virtual environment?
+## Getting started in Python 
+
+If you are new to Python, I would suggest installing [PyCharm](https://www.jetbrains.com/pycharm/) as your integrated development environment (IDE) for coding in Python. If you don't have Python already installed on your computer, it will automatically get installed when you install PyCharm and start working on your first project. PyCharm has a lot of nice features, and its worth your time to check out some of the online tutorials that are available for this IDE (e.g., basics are [here](https://www.youtube.com/playlist?list=PL30AETbxgR-dKTR0wBfkQw9mywvkCi3q_); how to use it in scientific model for data science applications can be found [here](https://www.youtube.com/watch?v=46RjXawJQgg&t=536s)). Another nice feature of PyCharm is its very user friendly way to set up new projects with their own virtual environments, described next. 
+
+### Virtual environments in Python
 
 In Python, a virtual environment helps to keep dependencies required by different projects separate, by creating isolated python virtual environments for each of them. Its like creating a remote island for each project that contains exactly the right version of python and associated external packages needed for that project. 
 
@@ -30,24 +34,27 @@ This is important, because sometimes one project will need one version of an ext
 
 Also, if you create a virtual environment with the specific versions of python and all external packages needed for your project, its then very easy to export those dependencies and communicate them to others. This will make it much easier for collaborators and other scientists to run your code. 
 
-Using virtual environments is considered best practice for Python, and so I strongly suggest you start using virtual environments right away. However, the use of separate environments for indiviudal projects is not just for Python users. If you are coding in R, it is also helpful to follow this approach. The next sections provide some instructions on how to do this in either Python or R. 
+Using virtual environments is considered best practice for Python, and so I strongly suggest you start using virtual environments right away. If you use PyCharm, you can automatically set up a virtual environment for each new project at the time of project set-up (see [here](https://www.youtube.com/watch?v=2P30W3TN4nI&list=PL30AETbxgR-dKTR0wBfkQw9mywvkCi3q_&index=5&t=92s)). 
+
+If you would like a little more background on virtual environments, a good overview can be found [here](https://realpython.com/python-virtual-environments-a-primer/#what-other-popular-options-exist-aside-from-venv).
  
-## Getting started in Python with virtual environments
+### Options to set up virtual environments outside of PyCharm
 
-### Anaconda
+See [here](https://www.youtube.com/watch?v=28eLP22SMTA&t=572s) for a good tutorial for how to set up virtual environments manually.  
 
-I think the easiest way to get started coding in Python with good environment management is to use Anaconda. I personally prefer this approach, and if you are not sure where to start, then start with Anaconda. You can use these videos [here](https://www.youtube.com/watch?v=23aQdrS58e0&feature=youtu.be) and [here](https://www.youtube.com/watch?v=AEFVbCcYVTY&feature=youtu.be) to help you get started with Anaconda installation, using Conda in command-line to help build and manage separate environments for your different projects, or using [Anaconda-Navigator](https://docs.anaconda.com/navigator/index.html) (a nice GUI for Anaconda) to do the same things. Note that the first video suggests installing Miniconda, but if you are a beginner I would recommend Anaconda (which comes with Anaconda Navigator). 
+[Anaconda](https://www.anaconda.com/) also provides an easy way to code in Python (and other languages) with good virtual environment management. You can use these videos [here](https://www.youtube.com/watch?v=23aQdrS58e0&feature=youtu.be) and [here](https://www.youtube.com/watch?v=AEFVbCcYVTY&feature=youtu.be) to help you get started. 
 
 Once you've created an environment, you can manage that environment (e.g., add new packages, remove old ones, export the environment for others to use) using Conda. See [here](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) for more instructions on these different management actions.  
 
-I personally like to use specific IDEs (e.g., Spyder) to actually develop my code. However, if you want to use an IDE in a virtual environment without re-installing the IDE for each environment (which would take up lots of memory as the number of environments grow), you need another strategy. A solution can be found [here](https://github.com/spyder-ide/spyder/wiki/Working-with-packages-and-environments-in-Spyder). 
+## Getting started in R
 
-### Other options for virtual environments in Python
+I would strongly suggest using [RStudio](https://posit.co/download/rstudio-desktop/) as your IDE. You will first need to download R, and then RStudio. Links for both installs can be found at the RStudio webpage. 
 
-In Python, there is another way to set up virtual environments, explained [here](https://www.youtube.com/watch?v=28eLP22SMTA&t=572s). It will show you how to do a custom install of Python and set up a virtual environment (on a Windows machine) using *venv*. However, if you use Anaconda and Conda, you don't need to do this. However, others you collaborate with might take this approach, so its useful to be aware of it. If you are a little confused, a good overview of these different options (and virutal environments in general) can be found [here](https://realpython.com/python-virtual-environments-a-primer/#what-other-popular-options-exist-aside-from-venv).
+### Virtual environments in R
 
-## Getting started in R with virtual environments
+The use of separate environments for indiviudal projects is not just for Python users. If you are coding in R, it is also helpful to follow this approach. 
 
-You can also use Anaconda for environment management in R, following these instructions [here](https://docs.anaconda.com/navigator/tutorials/create-r-environment/) to install R, RStudio, and R packages through Anaconda. You will have to reinstall RStudio for every environment you create, which takes up extra memory. This is not a big deal if you only have a few environments for a handful of projects. Nevertheless, a solution to reduce excess memory usage by multiple RStudio installs can be found towards the bottom of the discussion [here](https://stackoverflow.com/questions/38534383/how-to-set-up-conda-installed-r-for-use-with-rstudio) (see *Launch RStudio from Activated Conda Environment*).  
+There are tools directly in R to create project environments without Anaconda. For example, see [here](https://posit.co/blog/renv-project-environments-for-r/). 
 
-Alternatively, there are other tools in R to create project environments without Anaconda. For example, see [here](https://posit.co/blog/renv-project-environments-for-r/). 
+You can also use Anaconda for environment management in R, following these [instructions](https://docs.anaconda.com/navigator/tutorials/create-r-environment/).
+
