@@ -40,11 +40,9 @@ If you would like a little more background on virtual environments, a good overv
  
 ### Options to set up virtual environments outside of PyCharm
 
-See [here](https://www.youtube.com/watch?v=28eLP22SMTA&t=572s) for a good tutorial for how to set up virtual environments manually.  
+If you don't use PyCharm to set up virtual environments, see [here](https://www.youtube.com/watch?v=28eLP22SMTA&t=572s) for a good tutorial for how to set up virtual environments manually.  
 
-[Anaconda](https://www.anaconda.com/) also provides an easy way to code in Python (and other languages) with good virtual environment management. You can use these videos [here](https://www.youtube.com/watch?v=23aQdrS58e0&feature=youtu.be) and [here](https://www.youtube.com/watch?v=AEFVbCcYVTY&feature=youtu.be) to help you get started. 
-
-Once you've created an environment, you can manage that environment (e.g., add new packages, remove old ones, export the environment for others to use) using Conda. See [here](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) for more instructions on these different management actions.  
+[Anaconda](https://www.anaconda.com/) also provides an easy way to code in Python (and other languages) with good virtual environment management. You can use these videos [here](https://www.youtube.com/watch?v=23aQdrS58e0&feature=youtu.be) and [here](https://www.youtube.com/watch?v=AEFVbCcYVTY&feature=youtu.be) to help you get started with this approach. Once you've created an environment, you can manage that environment (e.g., add new packages, remove old ones, export the environment for others to use) using Conda. See [here](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) for more instructions on these different management actions.  
 
 ## Getting started in R
 
