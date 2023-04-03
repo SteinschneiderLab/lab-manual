@@ -24,7 +24,11 @@ Be sure to name all files in a way that clearly reflects their content or functi
 
 ## Getting started in Python 
 
-If you are new to Python, I would suggest installing [PyCharm](https://www.jetbrains.com/pycharm/) as your integrated development environment (IDE) for coding in Python. If you don't have Python already installed on your computer, it will automatically get installed when you install PyCharm and start working on your first project. PyCharm has a lot of nice features, and its worth your time to check out some of the online tutorials that are available for this IDE (e.g., basics are [here](https://www.youtube.com/playlist?list=PL30AETbxgR-dKTR0wBfkQw9mywvkCi3q_)). One nice feature of PyCharm is its very user friendly way to set up new projects with their own virtual environments, described next. 
+If you are new to Python, I would suggest installing [PyCharm](https://www.jetbrains.com/pycharm/) as your integrated development environment (IDE). If you don't have Python already installed on your computer, it will automatically get installed when you install PyCharm and start working on your first project. PyCharm has a lot of nice features, and its worth your time to check out some of the online tutorials that are available for this IDE (e.g., basics are [here](https://www.youtube.com/playlist?list=PL30AETbxgR-dKTR0wBfkQw9mywvkCi3q_)). 
+
+Other nice IDEs for data analytics include Spyder, Video Studio Code, and Jupyter Lab. Feel free to use whichever one you like best.  
+
+However, regardless of which IDE you choose, be mindful that you'll need to figure out a good system for working with virtual environments, described in the next section. One nice feature of PyCharm is its very user friendly way to set up new projects with their own virtual environments, which is why I recommend this one. 
 
 ### Virtual environments in Python
 
