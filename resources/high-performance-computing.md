@@ -18,7 +18,7 @@ Specs on Hopper can be found [here](https://www.cac.cornell.edu/wiki/index.php?t
 
 ### Accessing Hopper
 
-More detail and examples on how to access and submit jobs to Hopper can be found [here](https://github.com/srikrishnan-lab/slurm_tutorial). However, note that there will be slight differences in how you access Hopper depending on your operating system:
+Hopper access is shared amongst 4 research groups, so responsible use of the resource is critical. Hopper jobs should be scheduled via the Hopper Demand Log [here](https://docs.google.com/spreadsheets/d/1WP6kUm3_G9lEADBo81xXcw8yPdmLu6J85PZb-V3xnl0/edit?usp=sharing). There are also some very useful 'Getting started with Hopper' kinds of guides embedded in this document as well as at the Srikrishnan Group GitHub site [here](https://github.com/srikrishnan-lab/slurm_tutorial). The notes below regarding OS dependent access briefly summarize some considerations for Hopper use that are covered in more detail in the aforementioned resources:
 
 #### Windows 
 The easiest way to remote into Hopper if you are a Windows user is to download MobaXterm [here](https://mobaxterm.mobatek.net/). 
