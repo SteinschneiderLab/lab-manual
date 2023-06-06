@@ -1,0 +1,84 @@
+cd #input your drive
+OUTPUT_DIRECTORY=$PWD
+
+var=tmax #has to match exactly variable name in the netCDF file
+
+#start and end are whatever the .nc files are labeled with sequentially (probably something like '...001.nc; ...002.nc' )
+start=1836 
+end=1980
+
+for ((i=start; i<=end; i++)); do
+  ncks -d lat,35.,50. -d lon,235.,255. -v $var $var.$i.nc -O $var.o.$i.nc
+  rm -R $OUTPUT_DIRECTORY/$var.$i.nc
+done
+
+ncrcat -n 145,4,1 $var.o.1836.nc $var.20crv3.rr.18361980.nc
+rm -R $OUTPUT_DIRECTORY/$var.o*.nc
+
+--------------------------------------------------------------------------------------------------------------
+-some specific notes on the two operators 'ncks' and 'ncrcat'
+
+1) for 'ncks' (NCO 'kitchen sink' operator)
+ncks -d lat,35.,50. -d lon,235.,255. -v $var $var.$i.nc -O $var.o.$i.nc
+
+1a) -d lat,35.,50. :for lat and lon are self explanatory, should be inclusive of the specified dimension (ie lat,35.,50. includes N35 and N50 and everything in between)
+1b) -v $var  :has to be exact variable name in the netCDF file (try 'ncdump' to get names if needed)
+1c) $var.$i.nc -O $var.o.$i.nc   :these are the input and output files. In the case I used here the inputs were just labeled var.date.nc (e.g. 'tmax.1836.nc') and the geographically limited output was the same name with an 'o' in the middle (e.g. 'tmax.0.1836.nc'). You'd have to modify  this to work with the file naming nomenclature you have.
+1d) rm -R $OUTPUT_DIRECTORY/$var.$i.nc  :this just removes the large original files if you want
+
+
+
+2) for 'ncrcat' (NCO 'concatenate' operator); kind of works like it's own internal 'for' loop
+ncrcat -n 145,4,1 $var.o.1836.nc $var.20crv3.rr.18361980.nc
+
+2a) -n 145,4,1  :1st number is total # of files to concatenate, 2nd number is length of sequencing index, 3rd number is how much for each step. So,145,4,1 is sequence through 145 total files, 4 digit index (i.e. 1836, 1837 are 4 digits long), by 1 (1836,1836+1,...etc). 
+2b) $var.o.1836.nc  :tells ncrcat which file to start with (lowest indexed file)
+2c) $var.20crv3.rr.18361980.nc  :concatenated output file, just name it whatever makes sense to you
+2d) rm -R $OUTPUT_DIRECTORY/$var.o*.nc  :same deal as with ncks, just removes the individual output files
+
+-notes: Indexer should be specified immediately prior to the '.nc'; NCO like '.' dividers and not underscores 
+
+##Cheyenne routines to concatenate and slice data
+
+rsync -uzaP username@cheyenne.ucar.edu:/path/to/your/data /path/to/your/destination/data
+/glade/collections/cdg/data/CMIP6/CMIP/NCAR/CESM2/piControl/r1i1p1f1/AERday/zg500/gn/v20190320
+zg500_AERday_CESM2_piControl_r1i1p1f1_gn_12000101-12001231.nc
+
+cp /glade/collections/cdg/data/CMIP6/CMIP/NCAR/CESM2/piControl/r1i1p1f1/AERday/zg500/gn/v20190320/*nc ~/500hpa
+
+rename zg500_AERday_CESM2_piControl_r1i1p1f1_gn_ file_ *.nc
+rename 91231 0 *.nc
+rename 01231 0 *.nc
+rename file_00010101-000 file_00000101-0000.nc *
+rename 0.nc .nc *.nc
+rename 00101- . *.nc
+rename .nc0.nc .nc *.nc
+
+> rnloop.sh
+bash
+###
+start=0
+end=9
+
+for((i=start;i<=end;i++));do
+	mv file_*.00$i.nc file.00$i.nc
+done
+
+start=10
+end=99
+
+for((i=start;i<=end;i++));do
+	mv file_*.0$i.nc file.0$i.nc
+done
+
+start=100
+end=120
+
+for((i=start;i<=end;i++));do
+	mv file_*.$i.nc file.$i.nc
+done
+###
+
+ncrcat -n 121,3,1 file.000.nc zg500.out.nc
+
+ncks -d lat,20.,70. -d lon,200.,260. -v zg500 zg500.out.nc -O zg500.slice.nc

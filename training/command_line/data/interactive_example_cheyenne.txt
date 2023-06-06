@@ -1,0 +1,74 @@
+#takes user input of rcp and exp exp
+read -p 'Enter rcp (ssp126, ssp370, ssp585):' rcp
+reap -p 'Enter exp exp (r10i1p1f1,r11i1p1f1, r41i1p1f1):' exp
+ 	
+#copy data from appropriate folder
+cp /glade/collections/cdg/data/CMIP6/ScenarioMIP/NCAR/CESM2/$rcp/$exp/AERday/zg500/gn/v20200528/*nc ./
+
+#change first 6 underscores to periods, bash doesn't like underscores:{
+rename _ . *.nc
+rename _ . *.nc
+rename _ . *.nc
+rename _ . *.nc
+rename _ . *.nc
+rename _ . *.nc
+
+#rename data for concatenation
+start=1
+end=9
+
+for((i=start;i<=end;i++));do
+	j = $((i*10+5)) 						
+	mv zg500.AERday.CESM2.$rcp.$exp.gn.20$j*.nc file.0$i.nc
+done
+
+#ensure appropriate modules are loaded
+
+module load nco
+module load cdo
+
+#concatenate data
+
+ncrcat -n 9,1,1 file.1.nc zg500.$rcp.$exp.full.nc
+rm -v file.*.nc  
+
+#geo slice two subsets
+
+ncks -d lat,20.,70. -d lon,120.,280. -v zg500 zg500.$rcp.$exp.full.nc -o zg500.$rcp.$exp.lat20-70_lon120-280.nc 
+ncks -d lat,30.,60. -d lon,180.,260. -v zg500 zg500.$rcp.$exp.full.nc -o zg500.$rcp.$exp.lat30-60_lon180-260.nc
+
+#split two geographical subsets into months
+
+cdo splitmon zg500.$rcp.$exp.lat20-70_lon120-280.nc zg500.$rcp.$exp.lat20-70_lon120-280.mon
+cdo splitmon zg500.$rcp.$exp.lat30-60_lon180-260.nc zg500.$rcp.$exp.lat30-60_lon180-260.mon
+
+#calculate anomaly for large and small subsets
+
+start=1
+end=9
+geo1=lat20-70_lon120-280 #large subset
+geo2=lat30-60_lon180-260 #small subset
+
+for((i=start;i<=end;i++));do
+        cdo timmean zg500.$rcp.$exp.$geo1.mon0$i.nc zg500.tmean.nc
+        cdo timmean zg500.$rcp.$exp.$geo2.mon0$i.nc zg500.tmean2.nc
+        cdo sub zg500.$rcp.$exp.$geo1.mon0$i.nc zg500.tmean.nc zg500.anom.$rcp.$exp.$geo1.mon0$i.nc
+        cdo sub zg500.$rcp.$exp.$geo2.mon0$i.nc zg500.tmean2.nc zg500.anom.$rcp.$exp.$geo2.mon0$i.nc
+        rm -v zg500.tmean.nc
+        rm -v zg500.tmean2.nc
+done
+
+start=10
+end=12
+
+for((i=start;i<=end;i++));do
+        cdo timmean zg500.$rcp.$exp.$geo1.mon$i.nc zg500.tmean.nc
+        cdo timmean zg500.$rcp.$exp.$geo2.mon$i.nc zg500.tmean2.nc
+        cdo sub zg500.$rcp.$exp.$geo1.mon$i.nc zg500.tmean.nc zg500.anom.$rcp.$exp.$geo1.mon$i.nc
+        cdo sub zg500.$rcp.$exp.$geo2.mon$i.nc zg500.tmean2.nc zg500.anom.$rcp.$exp.$geo2.mon$i.nc
+        rm -v zg500.tmean.nc
+        rm -v zg500.tmean2.nc
+done
+
+exit 0
+  
