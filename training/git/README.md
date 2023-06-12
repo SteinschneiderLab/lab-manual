@@ -1,9 +1,5 @@
 # Introduction to GitHub
 
-Put some introductory text here. Explain general purpose of GitHub.
-
-<br>
-
 ## Getting Started
 
 GitHub is an interface of Git, which allows you to easily version control and share your code. There are several ways to interact with GitHub, including through the [command line](../command_line/) and [GitHub Desktop](https://desktop.github.com). The steps below outline how to get Git and GitHub setup on your machine.
@@ -83,6 +79,8 @@ https://github.com/SteinschneiderLab/lab-manual/assets/43445526/b20b27af-7f32-4e
 <br>
 
 Now let's create a new file and push it back to GitHub.
+
+https://github.com/SteinschneiderLab/lab-manual/assets/43445526/4e20bde0-edaa-4701-b6a3-84f92b7fa5a5
 
 1. Change directories into the Git training folder
 
