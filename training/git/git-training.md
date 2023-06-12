@@ -60,7 +60,7 @@ GitHub is an interface of Git, which allows you to easily version control and sh
 
 Let's start by copying the Lab's manual onto your local machine. This is called **cloning a repository**.
 
-![video](resources/cloning.gif)
+![video](resources/cloning.mov)
 
 1. Open the command line
 
