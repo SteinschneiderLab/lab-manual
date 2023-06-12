@@ -38,8 +38,6 @@ GitHub is an interface of Git, which allows you to easily version control and sh
 
    </details>
 
-   <br>
-
 1. **Make a [GitHub](https://www.github.com) Account**
 
    You are eligible for free GitHub Pro as a student. After you create an account, go to [GitHub Education](https://education.github.com/students) and click **Join Global Campus** to add these benefits to your account.
@@ -60,7 +58,7 @@ GitHub is an interface of Git, which allows you to easily version control and sh
 
 Let's start by copying the Lab's manual onto your local machine. This is called **cloning a repository**.
 
-![video](resources/cloning.mov)
+![video](resources/cloning.gif)
 
 1. Open the command line
 
