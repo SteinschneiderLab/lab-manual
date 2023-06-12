@@ -58,7 +58,7 @@ GitHub is an interface of Git, which allows you to easily version control and sh
 
 Let's start by copying the Lab's manual onto your local machine. This is called **cloning a repository**.
 
-![video](resources/cloning.mp4)
+https://github.com/SteinschneiderLab/lab-manual/assets/43445526/b20b27af-7f32-4e10-92eb-5200dd56b3c2
 
 1. Open the command line
 
