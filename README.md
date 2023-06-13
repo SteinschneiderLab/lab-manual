@@ -8,6 +8,7 @@ This repository contains materials that detail procedures, expectations, and res
 * Lab policy on [availability, time off, and remote work](lab-presence-and-availability.md)
 * Lab policy on [open research](open-reproducible-research.md)
 * Other [resources](resources) on coding, scientific writing, and best practices in computational science
+* [Training](training) modules for new students on core group competencies
 
 The lab manual should be considered a set of living documents. Feel free to comment or make recommendations on how this manual can be improved. 
 
