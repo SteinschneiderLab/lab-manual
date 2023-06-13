@@ -15,3 +15,4 @@ There are several reasons to learn how to code using the command line. One of th
 
 * See here for a tutorial on [command line basics](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview).
 * Click [here](https://github.com/veltman/clmystery) for a fun tutorial on command line basics staged as a murder mystery. 
+* Click [here](../training/command_line) for the Steinschneider group introductory training on command line.
