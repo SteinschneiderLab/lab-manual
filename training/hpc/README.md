@@ -3,7 +3,7 @@ This training module (HPC) is intended to introduce and familiarize new students
 
 The first session assumes no previous knowledge of remote HPC use or specifics of our local cluster. As a prereq, students should ensure that they have a CAC account for Hopper setup and approved by the Hopper PI (Vivek Srikrishnan, BEE, vs498@cornell.edu). The two sessions might go as below (HPC1 and HPC2):
 #### HPC1
-- Intro to [Hopper Cluster hardware](https://www.cac.cornell.edu/wiki/index.php?title=Hopper_Cluster) and general overview of cluster computing
+- Intro to [Hopper Cluster hardware](https://www.cac.cornell.edu/wiki/index.php?title=Hopper_Cluster) and general overview of cluster computing, including advantages of including remote computing into daily workflow and potential speed enhancements (10-100X with Hopper).
 - Intro to using [Hopper Demand log](https://docs.google.com/spreadsheets/d/1WP6kUm3_G9lEADBo81xXcw8yPdmLu6J85PZb-V3xnl0/edit#gid=0) and the resources therein
   - Responsible use of Hopper including logging use, max node usage, and avoidance of login node computing
 - Ensure all students can get on Hopper and access the resource
