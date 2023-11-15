@@ -53,7 +53,7 @@ The first session assumes no previous knowledge of remote HPC use or specifics o
   ```
   In VIM, input the following:
   ```
-  Rscript run_testR.sh
+  Rscript testR.R
   ```
   Then, run the bash script with the ```sh``` command:
   ```
