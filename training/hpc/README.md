@@ -1,6 +1,16 @@
 #### README  
-This training module contains a .pdf presentation, some data, and instructor notes to accomplish introductory training on LINUX/command line. The instructor notes follow the presentation and provide useful code snippets to run as part of 
-the presentation.
-  
-As preparation for this module, it is recommended that students quickly review the introductory slides of the presentation (slides 1-10) and ensure that they have a GitHub account and git installed on their machine to be able to fully 
-participate in the hands-on training. Further information on this can be found in the git training module [here](../git). This will be their first formal exposure to git in the group training regimen and the purpose of introducing it prior to the actual git lesson is 1) ensure that they clear up any logistical issues with git (account, installation, etc) and 2) allow them to clone the training modules to their local machine for this and future lessons.
+This training module (HPC) is intended to introduce and familiarize new students with HPC operations on the local EWRS shared resource, the Hopper Cluster, as of the writing of this document. The basic idea is that this module will build on previous command line and git training modules as prerequisites and be split over a couple 1 hour sessions.  
+
+The first session assumes no previous knowledge of remote HPC use or specifics of our local cluster. As a prereq, students should ensure that they have a CAC account for Hopper setup and approved by the Hopper PI (Vivek Srikrishnan, BEE, vs498@cornell.edu). The first session should target:  
+- Intro to Hopper Cluster hardware and general overview of cluster computing
+- Intro to using Hopper Demand log and the resources therein
+- Ensure all students can get on Hopper and access the resource
+- Review some basic LINUX functionality in HPC that was covered in command line module; demo first with direct ssh through Mac terminal or similar (i.e. not with emulator functionality)
+   - ls, mkdir, cd, etc.
+   - Introduce scp (secure copy protocol) for transferring files
+   - Cover some Hopper specifics such as module availability, etc.
+- While in direct ssh mode, cover getting into and out of high level languages (Python and R)
+  - For R
+    module load R
+    R
+
