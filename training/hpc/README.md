@@ -29,8 +29,8 @@ The first session assumes no previous knowledge of remote HPC use or specifics o
   >>> {enter your Python command here}
   ```
   You are now operating in python, you can return to bash with 'ctrl-z'
-- Demo the 'hard way' of creating a manual R script via VIM and then running with 'Rscript' command
-  create an R script and enter into it via VIM
+- Demo the 'hard way' of creating a manual R script via VIM and then running with 'Rscript' command   
+  Create an R script and enter into it via VIM
   ```
   $ touch testR.R
   $ vim testR.R
@@ -65,7 +65,7 @@ The first session assumes no previous knowledge of remote HPC use or specifics o
 - Demonstrate git operations in Hopper
   - Use public github repo [hpc1_training](https://github.com/zpb4/hpc1_training) and clone it to Hopper home directory
   - Will likely need to setup GitHub personal access tokens, follow steps from Anderson Lab [here](https://github.com/AndersonEnergyLab-Cornell/slurm_tutorial) or [here](https://edgoad.com/2021/02/using-personal-access-tokens-with-git-and-github.html)
-- Once git and GitHub remote functionality is working, demonstrate some simple R and Python scripting and introduce SLURM scheduling bash scripts from the 'hpc1_training' repo.
+- Once git and GitHub remote functionality is working, demonstrate some simple R and Python scripting with 'hpc1_training' scripts and introduce SLURM scheduling bash scripts from the 'hpc1_training' repo.
   - Package loading in R, building a Python virtual environment and installing needed modules (See CAC site on Hopper [here](https://www.cac.cornell.edu/wiki/index.php?title=Hopper_Cluster)).
   - Highlight error handling with SLURM scripts and potential troubleshooting alternatives   
 NOTE: Here and elsewhere, ensure that everyone is reminded that doing extensive computations on login node is bad!!
