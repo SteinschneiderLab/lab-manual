@@ -99,5 +99,6 @@ Ideally, this second module should be a very application focused session to pote
 - Revisit anything from HPC1 that was not completed or lingering questions
 - Introduce some simple parallelization techniques ('foreach' loops in R, embarrassingly parallel operations via bash script)
 - Useful R parallelization GitHub [here](https://github.com/PrincetonUniversity/HPC_R_Workshop/tree/master)
+- Useful R tips including parallelization [here](https://bookdown.org/rdpeng/rprogdatascience/)
 - Work through automating student scripts or running some software off of a group GitHub repo
 
