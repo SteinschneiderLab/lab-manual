@@ -59,8 +59,34 @@ The first session assumes no previous knowledge of remote HPC use or specifics o
   ```
   $ sh run_testR.sh
   ```
-  You should get the same output; instructor can demo something similar for Python as needed   
-- After some demos of the direct command line functionality, can transition to MobaXterm or equivalent to demo emulator operations
+  You should get the same output; demo for python too with 'testPy.py' script, create and enter via VIM:
+  ```
+  $ touch testPy.py
+  $ vim testPy.py
+  ```
+  As above, enter some simple Python functions with a simple output
+  ```
+  x = sum([1,2,3,4])
+  print('The sum of 1 to 4 is',x)
+  ```
+  Exit the py script and create a shell script to run the Python function:
+  ```
+  $ touch run_testPy.sh
+  $ vim run_testPy.sh
+  ```
+  Enter the 'python3' command in the shell script that runs the .py script (just 'python' works, but better to specify the version)
+  ```
+  python3 testPy.py
+  ```
+  Execute the shell script via the 'sh' command as above:
+  ```
+  $ sh run_testPy.py
+  ```
+
+
+#### HPC2  
+The second HPC lesson transitions from direct command line usage of Hopper to introduce an emulator interface and cover some of the important items that will enable students to really start putting jobs up on the resource. For lesson logistics, setting up the training with instructor VPN-ing into work PC with MobaXterm (or equivalent) is how the following module items are arranged. For students to follow along, it will be useful for them to have setup VPN and remote access to their work computer
+- Demo MobaXterm basic arrangement via VPN setup and briefly cover key attributes (GUI folder structure, MobaTextEditor, ensuring text editor format 'UNIX')
   - Ensure demo of networked Hopper drive functionality on work PCs (see 'Getting started with Hopper' in 'Hopper demand log' for details)
 - Demonstrate git operations in Hopper
   - Use public github repo [hpc1_training](https://github.com/zpb4/hpc1_training) and clone it to Hopper home directory
@@ -69,11 +95,9 @@ The first session assumes no previous knowledge of remote HPC use or specifics o
   - Package loading in R, building a Python virtual environment and installing needed modules (See CAC site on Hopper [here](https://www.cac.cornell.edu/wiki/index.php?title=Hopper_Cluster)).
   - Highlight error handling with SLURM scripts and potential troubleshooting alternatives   
 NOTE: Here and elsewhere, ensure that everyone is reminded that doing extensive computations on login node is bad!!
-
-
-#### HPC2
 Ideally, this second module should be a very application focused session to potentially work through automating routines in Hopper (i.e. R or Python scripts) that students may have already created. Consider asking students as a prerequisite to try to find something they'd like to automate in Hopper. Otherwise, the instructor can pull something from some group software or the prebuilt scripts in 'hpc2_training' {under construction}  
 - Revisit anything from HPC1 that was not completed or lingering questions
 - Introduce some simple parallelization techniques ('foreach' loops in R, embarrassingly parallel operations via bash script)
+- Useful R parallelization GitHub [here](https://github.com/PrincetonUniversity/HPC_R_Workshop/tree/master)
 - Work through automating student scripts or running some software off of a group GitHub repo
 
